@@ -1,0 +1,38 @@
+Algoritmo sin_titulo
+	//DOCUMENTACION
+    //ENUNCIADO: CALCULAR EL AREA DE UN TRIANGULO CONOCIENDO SUS LADOS
+	//AUTOR: ESTEFANIA ROMANA
+	//FECHA: 01/03/2023
+	//VERSION: 1.0
+	
+	//DECLARACION DE VARIABLES
+	Definir v_ladoA Como Real;
+	Definir v_ladoB Como Real;
+	Definir v_ladoC Como Real;
+	Definir v_semPer Como Real;
+	Definir v_Area Como Real;
+	
+	
+	//INICIALIZACION DE VARIABLES
+	 v_ladoA = 0.0;
+	 v_ladoB = 0.0;
+	 v_ladoC = 0.0;
+	 v_semPer = 0.0;
+	v_Area = 0.0;
+	
+	//ENTRADA DE DATOS
+	escribir "Digite el lado A ..";
+	leer v_LadoA;
+	escribir "Digite el lado B..";
+	leer v_ladoB;
+	escribir "Digite el lado C..";
+	leer v_LadoC;
+	//PROCESOS
+	v_semPer = (v_ladoA + v_ladoB + v_ladoC)/2
+	v_Area = (v_semPer * (v_semPer + v_ladoA) * (v_semPer + v_ladoB) * (v_semPer + v_ladoC));
+	
+	
+
+	//SALIDAS
+	Escribir "El area es igual a..." v_Area;
+FinAlgoritmo
